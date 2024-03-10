@@ -14,7 +14,7 @@ body {
 @include xs {
   .header {
     height: 640px;
-    background-image: url(/assets/images/bg_header_360.jpeg);
+    background-image: url(../images/bg_header_360.jpeg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -436,7 +436,7 @@ body {
 
 @include sm {
   .header {
-    background-image: url(/assets/images/bg_header_576.jpeg);
+    background-image: url(../images/bg_header_576.jpeg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -467,7 +467,7 @@ body {
 @include md {
   .header {
     height: 768px;
-    background-image: url(/assets/images/bg_header_768.jpeg);
+    background-image: url(../images/bg_header_768.jpeg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -592,7 +592,7 @@ body {
     display: block;
     margin-top: 100px;
     height: 700px;
-    background-image: url(/assets/images/main-black-background-image-md.jpg);
+    background-image: url(../images/main-black-background-image-md.jpg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -629,7 +629,7 @@ body {
 @include lg {
   .header {
     height: 945px;
-    background-image: url(/assets/images/bg_header_992.jpeg);
+    background-image: url(../images/bg_header_992.jpeg);
     background-repeat: no-repeat;
     background-position: center 0;
     background-size: cover;
@@ -738,7 +738,7 @@ body {
       display: flex;
       align-items: center;
       height: 750px;
-      background-image: url(/assets/images/main-black-background-image-lg.jpg);
+      background-image: url(../images/main-black-background-image-lg.jpg);
       background-repeat: no-repeat;
       background-position: center 0;
       background-size: cover;
@@ -773,7 +773,7 @@ body {
 @include xl {
   .header {
     height: 768px;
-    background-image: url(/assets/images/bg_header.jpeg);
+    background-image: url(../images/bg_header.jpeg);
     .header-title {
       font-size: 55px;
     }
@@ -838,7 +838,7 @@ body {
     .black-background-content {
       align-items: center;
       height: 957px;
-      background-image: url(/assets/images/main-black-background-image-xl.jpg);
+      background-image: url(../images/main-black-background-image-xl.jpg);
       background-repeat: no-repeat;
       background-position: center 0;
       background-size: cover;

@@ -1,0 +1,127 @@
+@include xs {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    transition: opacity 0.3s;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 90%;
+    padding: 15px;
+    background: #e7e7e7;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  .popup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper h2 {
+    margin: 20px 0 30px;
+    font-family: "20 Kopeek";
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+  }
+  .wrapper .close-popup {
+    color: white;
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    transition: all 200ms;
+  }
+
+  .popup-input {
+    margin-bottom: 15px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #181818;
+    border-radius: 10px;
+    padding-left: 29px;
+    padding-top: 5px;
+    &::placeholder {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 140%;
+    }
+  }
+  .popup-agreement-box {
+    display: flex;
+    align-items: start;
+    input {
+      margin-top: 3px;
+      margin-right: 5px;
+    }
+    p {
+      text-align: start;
+    }
+  }
+  .popup-button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+@include sm {
+  .wrapper {
+    width: 85%;
+    padding: 35px;
+  }
+  .popup-form {
+    width: 110%;
+  }
+}
+@include md {
+  .wrapper {
+    width: 65%;
+    p {
+      font-size: 16px;
+    }
+  }
+  .popup-button {
+    font-size: 16px;
+  }
+}
+@include lg {
+  .wrapper {
+    width: 50%;
+  }
+  .popup-form {
+    width: 100%;
+  }
+}
+@include xl {
+  .wrapper {
+    h2 {
+      font-size: 38px;
+    }
+    p {
+      font-size: 18px;
+    }
+  }
+  .popup-form {
+    width: 120%;
+  }
+  .popup-button {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- for burger used font-awesome -->
+  </head>
+  <body>
+    <div class="popup-window">
+      <div class="overlay" id="divOne">
+        <div class="wrapper">
+          <h2>Оставить заявку</h2>
+          <a href="#" class="close-popup fa-solid fa-close fa-2x"></a>
+          <div class="container-popup">
+            <form class="popup-form">
+              <label
+                ><input
+                  type="text"
+                  class="popup-input col-xl-12 col-lg-12 col-md-9 col-xs-4"
+                  placeholder="Ваше Имя"
+              /></label>
+              <label
+                ><input
+                  type="tel"
+                  class="popup-input col-xl-12 col-lg-12 col-md-9 col-xs-4"
+                  placeholder="+7 (999) 999-99-99"
+              /></label>
+              <label class="popup-agreement-box"
+                ><input type="checkbox" />
+                <p>Я принимаю условия передачи персональных данных</p>
+              </label>
+              <button class="popup-button blue-button" type="submit">
+                Оставить заявку
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="row">
+            <div class="logo-text-box">
+              <img class="logo" src="./assets/images/logo_header.svg" />
+              <p class="logo-text col-xl-7 col-lg-7 col-md-3 col-sm-3 col-xs-3">
+                Разрабатываем фирменные стили c 2009 года
+              </p>
+            </div>
+            <div class="col-xl-4 ml-a">
+              <div class="buttons-container">
+                <a
+                  href="tel:+84951563911"
+                  class="nav-tel-link regular-button ml-2"
+                >
+                  8 (495) 156-39-11
+                </a>
+                <a href="https://facebook.com" class="circle-button">
+                  <img src="./assets/images/facebook.svg" alt="facebook" />
+                </a>
+                <a href="https://instagram.com" class="circle-button">
+                  <img src="./assets/images/instagram.svg" alt="instagram" />
+                </a>
+                <label>
+                  <input type="checkbox" class="checkbox" />
+                  <div class="burger">
+                    <i class="fa-solid fa-bars fa-2x"></i>
+                    <i class="fa-solid fa-close fa-2x"></i>
+                  </div>
+                </label>
+                <nav class="burger-menu">
+                  <div class="container">
+                    <div class="-burger-logo">
+                      <img
+                        src="assets/images/black-logo.svg"
+                        alt="burger logo"
+                      />
+                    </div>
+                    <ul class="regular-title-font col-xs-4">
+                      <li><a href="#">Портфолио</a></li>
+                      <li><a href="#">Как мы работаем</a></li>
+                      <li><a href="#">Преимущества</a></li>
+                    </ul>
+                    <div class="burger-contact">
+                      <img
+                        src="assets/images/facebook-logo-black.svg"
+                        alt="facebook page link"
+                      />
+                      <img
+                        src="assets/images/instagram-logo-black.svg"
+                        alt="instagram page link"
+                      />
+                      <div class="col-xs-3">
+                        <a href="tel:+84951563911" class="regular-button">
+                          8 (495) 156-39-11
+                        </a>
+                        <a href="#"> hello@free-creative.com</a>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-content">
+          <div class="col-xl-6 col-lg-6 col-md-4 col-sm-4 col-xs-4">
+            <h1 class="header-title">
+              Вам нужен фирменный стиль или ребрендинг?
+            </h1>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-4 col-sm-2 col-xs-3">
+            <p class="header-subtitle">Разработаем в срок от 10-ти дней</p>
+          </div>
+          <div class="col-xl-5 col-xs-3">
+            <div class="buttons-container">
+              <button class="header-smaller-btn">Портфолио</button>
+              <button class="white-button">
+                <a href="#divOne">Оставить заявку</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="brand-style">
+        <div class="container">
+          <div class="col-xs-4">
+            <h2 class="regular-title-font title-1">
+              Что такое фирменный стиль
+            </h2>
+          </div>
+          <div class="lg-display-flex">
+            <div>
+              <img
+                class="col-xl-11 col-lg-11 col-md-4 col-sm-6 col-xs-4"
+                src="assets/images/brand-style-section-img.jpg"
+                alt="баночки с различной пастой"
+              />
+            </div>
+            <div
+              class="regular-text-font main-text-1 col-xl-5 col-lg-6 col-md-4 col-sm-6 col-xs-4"
+            >
+              <p>
+                Это набор тех уникальных «признаков», по которым клиент отличит
+                вас от других компаний. Фирменный стиль отражает миссию бренда,
+                ценности, является способом его идентификации, формирует
+                определённое восприятие в коммуникации с потребителями.
+              </p>
+              <p>
+                В идеале разработка корпоративного стиля должна происходить
+                одновременно с созданием бизнеса и формированием его
+                фундаментальных идей. Есть и второй вариант: бизнес существует
+                определенное время и ему нужен перезапуск - это называется
+                редизайн или ребрендинг: в мире жёсткой конкуренции важно быть
+                «в тренде», успевать за изменениями в поведениях покупателя и
+                “говорить” с ним на одном языке.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-12">
+              <p class="regular-title-font title-2">
+                Название и логотип – важные составляющие фирменного стиля, но на
+                этом всё только начинается. Ниже основные элементы:
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="col-xl-12 regular-text-font">
+              <ol class="brand-main-elems">
+                <li>Название компании</li>
+                <li>Логотип – основной графический символ</li>
+                <li>Фирменные цвета всей коммуникации (онлайн и оффлайн)</li>
+                <li>Шрифт</li>
+                <li>
+                  Носители фирменного стиля
+                  <p>
+                    Этот набор варьируется в зависимости от нужд и потребностей
+                    компании: визитные карточки, фирменные бланки и прочая
+                    деловая документация, упаковка, сувенирная продукция,
+                    брендинг автотранспорта.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div class="main-title">
+            <h2 class="col-xl-7 regular-title-font title-3">
+              Сколько стоит фирменный стиль?
+            </h2>
+          </div>
+          <div class="main-1-section-content">
+            <div
+              class="col-xl-4 col-lg-5 col-md-5 col-sm-5 col-xs-4 regular-text-font"
+            >
+              <p class="mt-0">
+                Каждая задача по разработке фирменного стиля уникальна для нас —
+                это новый вызов и новые эмоции. Мы принципиально не предлагаем
+                вам стандартизированные пакеты “эконом”, “стандрат”, или
+                “премиум”, мы не штампуем, мы - создаем.
+              </p>
+              <p>
+                Стоимость разработки фирменного стиля в нашем агентстве
+                начинается от 120 000 руб., финальную планку без брифинга
+                определить невозможно - давайте созвонимся и обсудим ваш проект!
+              </p>
+              <p class="text-on-blue-box">
+                Каждый клиент нашего агентства получает приятный бонус на финише
+                проекта, о котором мы расскажем ниже ▼
+              </p>
+            </div>
+            <div>
+              <img
+                class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-xs-4"
+                src="assets/images/brand-style-section-img-2.jpg"
+                alt="logo on files"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-2">
+        <div class="container gap-60">
+          <div class="view-project-box">
+            <div class="gap-30 col-xs-4">
+              <img
+                class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-xs-4"
+                src="assets/images/amperia.jpg"
+                alt="amperia brand wall"
+              />
+              <div class="project-box-flex">
+                <div class="col-xl-3 col-lg-4 col-md-2 col-sm-3 col-xs-3">
+                  <h3 class="regular-title-font">Amperia</h3>
+                  <p>Бренд красивых сувениров и подарков для дома</p>
+                </div>
+                <button class="view-project-button border-white-button">
+                  Смотреть проект
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="view-project-box">
+            <div class="gap-30 col-xs-4">
+              <img
+                class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-xs-4"
+                src="assets/images/amperia-1.jpg"
+                alt="amperia brand wall"
+              />
+              <div class="project-box-flex">
+                <div class="col-xl-3 col-lg-4 col-md-2 col-sm-3 col-xs-3">
+                  <h3 class="col-xs-3 regular-title-font">AQ.Lifecare</h3>
+                  <p class="col-xs-3">
+                    Инновационная клиника внутривенной медицины
+                  </p>
+                </div>
+                <button class="view-project-button border-white-button">
+                  Смотреть проект
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="view-project-box">
+            <div class="gap-30 col-xs-4">
+              <img
+                class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-xs-4"
+                src="assets/images/amperia-2.jpg"
+                alt="amperia brand wall"
+              />
+              <div class="project-box-flex">
+                <div class="col-xl-3 col-lg-4 col-md-2 col-sm-3 col-xs-3">
+                  <h3 class="col-xs-3 regular-title-font">Vilata</h3>
+                  <p class="col-xs-3">Бренд натуральных и вкусных соусов</p>
+                </div>
+                <button class="view-project-button border-white-button">
+                  Смотреть проект
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="view-project-box">
+            <div class="gap-30 col-xs-4">
+              <img
+                class="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-xs-4"
+                src="assets/images/amperia-3.jpg"
+                alt="amperia brand wall"
+              />
+              <div class="project-box-flex">
+                <div class="col-xl-3 col-lg-4 col-md-2 col-sm-3 col-xs-3">
+                  <h3 class="col-xs-3 regular-title-font">Coral Black</h3>
+                  <p class="col-xs-3">
+                    Черная икра в современной инторпритации
+                  </p>
+                </div>
+                <button class="view-project-button border-white-button">
+                  Смотреть проект
+                </button>
+              </div>
+            </div>
+          </div>
+          <button class="view-project-more-button blue-button-18">
+            Показать еще
+          </button>
+        </div>
+      </section>
+      <section class="section-3">
+        <div class="container">
+          <h2 class="section-3-title regular-title-font">
+            Гайдлайны в подарок
+          </h2>
+          <div class="sectioon-3-main-content">
+            <img
+              class="big-screen-pic col-xl-7 col-lg-7"
+              src="assets/images/section-3-main-content-jpg.jpg"
+              alt="brand name table"
+            />
+            <img
+              class="small-screen-pic col-md-4 col-sm-6 col-xs-4"
+              src="assets/images/orange-background-flour.jpg"
+              alt="brand flour on the table"
+            />
+            <div class="col-xl-5 col-lg-5 col-md-4 col-sm-5 col-xs-4">
+              <p class="text-on-blue-box">
+                <span>Что такое гайдлайн и зачем он нужен?</span>
+                А теперь об обещанном бонусе: заказывая фирменный стиль в нашем
+                агентстве вы получаете минимальный гайдлайн в подарок, это
+                позволит вам уже быть на шаг впереди ваших конкурентов!
+              </p>
+              <p class="section-3-last-text">
+                Гайдлайн – это свод правил по воспроизведению фирменного стиля
+                на носителях. Если коротко, то в гайдлайне описано, как должен
+                выглядеть каждый элемент корпоративного стиля и какие правила
+                его использования. Гайдлайн помогает вашему бизнесу экономить
+                время и деньги, помогать масштабироваться, а также тиражировать
+                ваш бизнес посредством франшизы.
+              </p>
+            </div>
+          </div>
+          <form class="col-xl-12 col-lg-12">
+            <div
+              class="regular-title-font col-xl-9 col-lg-9 col-md-4 col-sm-6 col-xs-4"
+            >
+              Оставьте заявку на разработку вашего продукта
+            </div>
+            <p class="section-3-text col-xs-4">
+              Наши эксперты свяжутся с вами в ближайшее время
+            </p>
+            <label
+              ><input
+                class="section-3-input col-xl-4 col-lg-5 col-md-4 col-sm-5 col-xs-4"
+                type="text"
+                placeholder="Ваше Имя"
+            /></label>
+            <label
+              ><input
+                class="input-with-button section-3-input col-xl-4 col-lg-5 col-md-4 col-sm-5 col-xs-4"
+                type="tel"
+                placeholder="+7 (999) 999-99-99" /></label
+            ><button
+              class="blue-button blue-button-hide-on-small-screen col-xl-3"
+              type="submit"
+            >
+              Оставить заявку</button
+            ><br />
+            <div class="checkbox-agreement">
+              <label
+                ><input type="checkbox" />
+
+                <p>
+                  Я принимаю
+                  <a href="agreement.html"
+                    >условия передачи персональных данных</a
+                  >
+                </p>
+              </label>
+            </div>
+            <button
+              class="blue-button blue-button-hide-on-xl-screen"
+              type="submit"
+            >
+              Оставить заявку
+            </button>
+          </form>
+        </div>
+      </section>
+      <section class="section-4">
+        <div class="container">
+          <h2
+            class="col-xl-4 col-lg-4 col-md-3 col-sm-4 col-xs-4 regular-title-font"
+          >
+            Этапы создания фирменного стиля и гайдлайна
+          </h2>
+          <div class="section-4-main">
+            <div class="section-4-main-frist-box col-xl-4 col-lg-4">
+              <img
+                src="assets/images/guideline-logo-1.svg"
+                alt="guidline logo"
+              />
+              <p class="section-4-main-title col-xs-3">
+                Погружение в креативный поиск
+              </p>
+            </div>
+            <div class="section-4-main-box">
+              <div class="section-4-main-inside-small-box">
+                <h4>Иследование среды</h4>
+                Изучаем нишу и конкурентное поле, находим подходящую идею
+                будущей коммуникации
+              </div>
+              <div class="section-4-main-inside-small-box">
+                <h4>Поиск <br />тональности</h4>
+                Решаем, какая тональность подходит именно вашему бренду. Дерзкий
+                характер или спокойный, строгий или ультрамодный
+              </div>
+              <div class="section-4-main-inside-small-box">
+                <h4>Формирование мудбордов</h4>
+                Составляем подборку креативных проектов, которые соответствуют
+                поставленной тональности стиля
+              </div>
+            </div>
+          </div>
+
+          <div class="section-4-main">
+            <div class="section-4-main-frist-box col-xl-4 col-lg-4">
+              <img
+                src="assets/images/guideline-logo-2.svg"
+                alt="guidline logo"
+              />
+              <p class="section-4-main-title col-xs-3">
+                Разработка визуальной <br />и вербальной айдентики
+              </p>
+            </div>
+            <div class="section-4-main-box">
+              <div class="section-4-main-inside-small-box">
+                <h4>Название <br />и слоганы</h4>
+                Придумываем название для вашего бренда и запоминающиеся слоганы
+              </div>
+              <div class="section-4-main-inside-small-box">
+                <h4>Разработка <br />логотипа, цвет</h4>
+                Создаем логотип – основной графический символ, важнейший элемент
+                коммуникации, подбираем цветовую палитру для всей коммуникации
+              </div>
+              <div class="section-4-main-inside-small-box">
+                <h4>Основные носители фирменного стиля</h4>
+                Составляем подборку креативных проектов, которые соответствуют
+                поставленной тональности стиля
+              </div>
+            </div>
+          </div>
+
+          <div class="section-4-main">
+            <div class="section-4-main-frist-box col-xl-4 col-lg-4">
+              <img
+                src="assets/images/guideline-logo-3.svg"
+                alt="guidline logo"
+              />
+              <p class="section-4-main-title col-xs-3">Создание гайдлайна</p>
+            </div>
+            <div class="section-4-main-box">
+              <div class="section-4-main-inside-small-box">
+                <h4>Основные принципы стиля</h4>
+                Выявляем основные принципы, на которых построен фирменный стиль
+              </div>
+              <div class="section-4-main-inside-small-box">
+                <h4>
+                  Составление <br />
+                  гайдлайна
+                </h4>
+                Наглядно показываем все правила использования фирменного стиля,
+                закрепляем результат в виде презентации
+              </div>
+              <div class="section-4-main-inside-small-box">
+                Вы получаете готовый бренд с набором всех необходимых
+                инструментов
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <table class="table-box">
+          <tr class="top-line-font">
+            <td class="hide-table th-border-top"></td>
+            <td>Фрилансер</td>
+            <td>Free.creative</td>
+            <td>
+              Большое <br />
+              агентство <br />
+              с именем
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" class="hide-on-big-screen">Философия</td>
+          </tr>
+          <tr>
+            <th class="hide-on-small-screen">Философия</th>
+            <td>
+              Часто замотивирован как можно быстрее сделать и получить деньги.
+            </td>
+            <td>
+              Опытная команда профессионалов, нацеленная на результат. К каждому
+              проекту относимся как к родному, работаем на качество, а не на
+              количество.
+            </td>
+            <td>
+              Огромная сверхопытная команда экстра профессионалов, выдающая
+              проект строго исходя из подписанной сметы и часов человека.
+              Замотивированы делать “большие” и дорогие проекты.
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" class="hide-on-big-screen">Уровень дизайна</td>
+          </tr>
+          <tr>
+            <th class="hide-on-small-screen">Уровень дизайна</th>
+            <td class="line-on-top">Как получится....</td>
+            <td class="line-on-top">
+              Высокий. За нас говорит наше портфолио и клиенты.
+            </td>
+            <td class="line-on-top">
+              Высокий. За нколлег говорит их портфолио и уровень клиентов.
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" class="hide-on-big-screen">Стоимость</td>
+          </tr>
+          <tr>
+            <th class="hide-on-small-screen">Стоимость</th>
+            <td class="line-on-top">В 90% случаев дешевле агентства.</td>
+            <td class="line-on-top">
+              Адекватная рынку и вашей задаче. Каждый кейс для нас – уникальный
+              вызов, мы погружаемся в бриф и выходим с ценовым предложением.
+            </td>
+            <td class="line-on-top">
+              Высокая, иногда откровенно завышенная, малобюджетные клиенты
+              неинтересны.
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" class="hide-on-big-screen">Отношение к клиенту</td>
+          </tr>
+          <tr>
+            <th class="hide-on-small-screen">Отношение к клиенту</th>
+            <td class="line-on-top">Как получится...</td>
+            <td class="line-on-top">
+              Нас можно назвать настоящими друзьями. Не бросаем в беде и сделаем
+              всё, чтобы решить проблему. На связи 24/7, поддерживаем и
+              консультируем онлайн и офлайн на каждом этапе сотрудничества.
+            </td>
+            <td class="line-on-top">
+              Коммуникация ведется в рамках выделенных часов и сметы, вам
+              уделяют столько времени, сколько агентство считает нужным. Иногда
+              можно ждать ответ на свой имейл больше дня – это норма.
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4" class="hide-on-big-screen">Сроки</td>
+          </tr>
+          <tr>
+            <th class="hide-on-small-screen th-border-bottom">Сроки</th>
+            <td class="line-on-top">
+              Иногда исполнитель вообще пропадает без связи
+            </td>
+            <td class="line-on-top">
+              Мы адекватно подходим к срокам в нашем агентстве, не обещаем того,
+              чего не можем выполнить. Чётко менеджерим своё время, чтобы клиент
+              получил всё в срок.
+            </td>
+            <td class="line-on-top">
+              Долго, несколько уровней менеджмента, бюррократия, очередь из
+              больших клиентов.
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="black-background-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-9 col-lg-9 col-md-6">
+              <p class="regular-title-font title-2">
+                Гарантия качества:5 фундаментальных преимуществ работать с нами
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="col-xl-12 regular-text-font">
+              <ol class="brand-main-elems">
+                <li>
+                  Разработкой вашего фирменного стиля займется команда
+                  профессионалов с высшим профильным образованием.
+                </li>
+                <li>
+                  Все права на результат работ переходят от Исполнителя к
+                  Заказчику и это закреплено юридически в нашем с вами Договоре.
+                </li>
+                <li>
+                  Все сотрудники компании строго соблюдают правила коммерческой
+                  тайны по вашему проекту, мы никогда не разглашаем стоимость
+                  разработки вашего проекта и любые детали, связанные с
+                  проектом.
+                </li>
+                <li>
+                  Мы гарантируем, что любая разработка проходит проверку на
+                  оригинальность, вы получайте действительно уникальный продукт
+                </li>
+                <li>
+                  Мы имеем опыт работы с малым, средним и крупным бизнесом, а
+                  также с международными корпорациями Наша репутация - это 9-ть
+                  лет успешной работы. 8-мь из 10-ти клиентов после совместной
+                  разработки фирменного стиля обращаются к нам повторно: за
+                  созданием сайта, контента для социальных сетей или по любой
+                  другой задаче.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-box">
+      <div class="container">
+        <div class="form-contact">
+          <div class="footer-box-1 col-xl-7 col-lg-7">
+            <h3 class="footer-title">Связаться с нами</h3>
+            <form class="col-xl-11 col-lg-11">
+              <label
+                ><input
+                  class="footer-input col-xl-9 col-lg-10 col-md-4 col-sm-5 col-xs-4"
+                  type="text"
+                  placeholder="Ваше Имя"
+              /></label>
+              <label
+                ><input
+                  class="footer-input col-xl-9 col-lg-10 col-md-4 col-sm-5 col-xs-4"
+                  type="tel"
+                  placeholder="+7 (999) 999-99-99" /></label
+              ><br />
+              <div class="checkbox-agreement">
+                <label
+                  ><input type="checkbox" />
+                  <p>
+                    Я принимаю
+                    <a href="agreement.html"
+                      >условия передачи персональных данных</a
+                    >
+                  </p>
+                </label>
+              </div>
+              <button class="blue-button" type="submit">Оставить заявку</button>
+            </form>
+          </div>
+          <div class="footer-box-2 col-xl-6 col-lg-5">
+            <h3 class="footer-title">Контакты</h3>
+            <div class="footer-box-text">
+              <p>8 (495) 156-39-11</p>
+              <p>brand@free-creative.com</p>
+              <p>Москва, Садовническая улица 69</p>
+            </div>
+          </div>
+        </div>
+        <h4 class="footer-title">Мы в СМИ</h4>
+        <div class="footer-bottom">
+          <div class="footer-box-1">
+            История агентства FREE.creative
+            <p>vc.ru</p>
+          </div>
+          <div class="footer-box-2">
+            Традиции и современность: брендинг ресторана-пекарни «Ешь Хлеб»
+            <p>vc.ru</p>
+          </div>
+          <div class="footer-box-3">
+            Четыре боли крупных клиентов и целительная сила аккаунтинга
+            <p>vc.ru</p>
+          </div>
+          <div class="footer-box-4">
+            Как выводить на рынок бренды будущего: кейс инновационной клиники
+            витаминных коктейлей
+            <p>vc.ru</p>
+          </div>
+        </div>
+        <p class="footer-text">@ FREE.creative 2008—2020</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./assets/scripts/burger.js"></script>
+</html>

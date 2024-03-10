@@ -1,0 +1,42 @@
+@include xs {
+  .agreement-link {
+    margin-top: 90px;
+    a {
+      color: black;
+      font-family: "20 Kopeek";
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 110%;
+      text-decoration-line: underline;
+    }
+  }
+  .agreement-text-box {
+    margin: 70px 0;
+    font-family: "20 Kopeek";
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@include md {
+  .agreement-link {
+    a {
+      font-size: 34px;
+    }
+  }
+  .agreement-text-box {
+    font-size: 16px;
+  }
+}
+@include xl {
+  .agreement-link {
+    a {
+      font-size: 38px;
+    }
+  }
+  .agreement-text-box {
+    font-size: 18px;
+  }
+}

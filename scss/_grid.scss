@@ -1,0 +1,107 @@
+@use "sass:math";
+
+$grid-columns-xl: 12;
+$grid-columns-lg: 12;
+$grid-columns-md: 6;
+$grid-columns-sm: 6;
+$grid-columns-xs: 4;
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0 30px;
+}
+
+@include xs {
+  @for $i from 1 through $grid-columns-xs {
+    .col-xs-#{$i} {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns-xs);
+    }
+  }
+
+  .container {
+    box-sizing: border-box;
+    max-width: 290px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@include sm {
+  @for $i from 1 through $grid-columns-sm {
+    .col-sm-#{$i} {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns-sm);
+    }
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 510px;
+    margin: 0 auto;
+  }
+}
+
+@include md {
+  @for $i from 1 through $grid-columns-md {
+    .col-md-#{$i} {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns-md);
+    }
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 690px;
+    margin: 0 auto;
+  }
+}
+
+@include lg {
+  @for $i from 1 through $grid-columns-lg {
+    .col-lg-#{$i} {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns-lg);
+    }
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 930px;
+    margin: 0 auto;
+  }
+}
+
+@include xl {
+  @for $i from 1 through $grid-columns-xl {
+    .col-xl-#{$i} {
+      box-sizing: border-box;
+      flex-grow: 0;
+      width: math.div($i * 100%, $grid-columns-xl);
+    }
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+}
+
+.ml-a {
+  margin-left: auto;
+}
+
+.ml-2 {
+  margin-left: 30px;
+}

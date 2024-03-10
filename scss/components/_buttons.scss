@@ -1,0 +1,87 @@
+@mixin btn($fz, $bg-color) {
+  width: 222px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 23px 47px;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz;
+  line-height: 140%;
+  background-color: $bg-color;
+  border-radius: 40px;
+  border: none;
+}
+
+.border-white-button {
+  @include btn(18px, white);
+  border: 1px solid black;
+}
+
+.header-smaller-btn {
+  @include btn(18px, white);
+  width: 176px;
+}
+
+.white-button {
+  @include btn(18px, white);
+}
+
+.blue-button {
+  @include btn(15px, #2b59c3);
+  color: white;
+}
+
+.blue-button-18 {
+  @include btn(18px, #2b59c3);
+  color: white;
+}
+
+@include md {
+  .border-white-button {
+    height: 60px;
+  }
+  .header-smaller-btn {
+    width: 176px;
+    height: 60px;
+  }
+  .white-button {
+    height: 60px;
+  }
+  .blue-button {
+    height: 60px;
+  }
+  .blue-button-18 {
+    height: 60px;
+  }
+}
+@include xl {
+  .border-white-button {
+    height: 71px;
+  }
+  .header-smaller-btn {
+    width: 176px;
+    height: 71px;
+  }
+  .white-button {
+    height: 71px;
+  }
+  .blue-button {
+    height: 71px;
+  }
+  .blue-button-18 {
+    height: 71px;
+  }
+}
+
+.circle-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
